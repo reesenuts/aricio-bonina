@@ -1,3 +1,31 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif; /* Ensure the Inter font is applied globally */
+}
+
+html {
+  scroll-behavior: smooth; /* Enable smooth scrolling for anchor links */
+}
+
+body {
+  line-height: 1.6; /* Improve readability */
+}
+
+a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Ensure links inherit the color from their parent */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
